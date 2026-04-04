@@ -32,9 +32,9 @@ next_state &= free_space; next_state &= ~visited;
 
 ### Complexity Comparison
 
-Algorithm	         | Time Complexity	| Best For
+Algorithm            | Time Complexity	| Best For
 
-A / Dijkstra*	     | O(E \log V)	    | Large graphs, weighted edges
+A / Dijkstra*        | O(E \log V)	    | Large graphs, weighted edges
 
 Quantum-PathFinder   | O(N/WordSize)	| Grid mazes, High-speed real-time AI
 
