@@ -1,0 +1,6 @@
+class MazeSolver:
+    def __init__(self):
+        ...
+    
+    def solve(self, maze: list[list[int]], start: tuple[int, int], end: tuple[int, int]) -> tuple[int, list[tuple[int, int]]]:
+        ...
