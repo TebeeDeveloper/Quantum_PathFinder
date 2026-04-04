@@ -43,4 +43,5 @@ maze = [
 / Get the shortest path in microseconds
 
 steps, history = solver.solve(maze, start=(0, 0), end=(6, 0))
+
 print(f"Path found in {steps} steps.")
