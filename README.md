@@ -9,7 +9,7 @@ Quantum-Inspired Logic: Processes all reachable cells in a single clock cycle us
 
 Extreme Performance: Solves a 32 x 32 maze in ~0.2ms.
 
-Memory Efficient: Uses std::bitset for a flat memory footprint ($O(1)$ extra space relative to maze size).
+Memory Efficient: Uses std::bitset for a flat memory footprint (O(1) extra space relative to maze size).
 
 Python Wrapper: Easy to use in Python while maintaining C++ raw speed.
 
@@ -36,7 +36,7 @@ next_state &= ~visited;
 
 Algorithm            | Time Complexity	| Best For
 
-A / Dijkstra*        | O(E \log V)	    | Large graphs, weighted edges
+A / Dijkstra*        | O(E log V)	    | Large graphs, weighted edges
 
 Quantum-PathFinder   | O(N/WordSize)	| Grid mazes, High-speed real-time AI
 
