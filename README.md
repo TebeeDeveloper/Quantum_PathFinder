@@ -28,7 +28,9 @@ next_state = (current << W) | (current >> W) | ((current << 1) & not_first_col) 
 
 // "Wave Function Collapse": Only move to valid, unvisited free spaces
 
-next_state &= free_space; next_state &= ~visited;
+next_state &= free_space;
+
+next_state &= ~visited;
 
 ### Complexity Comparison
 
